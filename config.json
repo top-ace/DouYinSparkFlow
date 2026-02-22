@@ -10,7 +10,7 @@
     "哲学"
   ],
   "happyNewYear": {
-      "enabled": true,
+      "enabled": false,
       "messageTemplate": "【[data]|[data_lunar]】\n[烟花]今日专属祝福[福]：\n[API]"
   }
 }
