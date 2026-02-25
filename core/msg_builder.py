@@ -22,6 +22,8 @@ def build_message() -> str:
             message = message.replace("[API]", api_content)
     else:
         message = get_config().get("messageTemplate", "续火花")
+        if "[data]" in message:
+            message = message.replace("[data]", today.strftime("%Y年%m月%d日"))
         if "[API]" in message:
             api_content = request_hitokoto()
             message = message.replace("[API]", api_content)
