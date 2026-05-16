@@ -1,7 +1,7 @@
 import requests
 from utils.config import get_config
 
-hitokotoApi = "https://v1.hitokoto.cn/?c=i"
+hitokotoApi = "https://v1.hitokoto.cn/"
 
 allHitokotoTypes = {
     "动画": "a",
